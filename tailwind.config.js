@@ -6,14 +6,18 @@ export default {
       colors: {
         bg: "#FFFFFF",
         "bg-subtle": "#FAFAFA",
-        text: "#0A0A0A",
+        text: "#1A1A1A", // Un negro ligeramente más suave y moderno
         "text-secondary": "#6B6B6B",
-        accent: "#000000",
-        "accent-secondary": "#6366F1",
+        
+        // El rojo de Nito's Pizza para botones principales y llamadas a la acción
+        accent: "#E53E3E", 
+        // El color naranja/dorado para elementos secundarios, ofertas y estrellas de calificación
+        "accent-secondary": "#DD6B20", 
+        
         border: "#E5E5E5",
-        success: "#10B981",
-        error: "#EF4444",
-        warning: "#F59E0B",
+        success: "#38A169", // Verde para pedidos completados
+        error: "#E53E3E",
+        warning: "#ECC94B",
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
